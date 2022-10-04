@@ -9,9 +9,12 @@ html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
 }
+.nombre-autor{
+    font-size: 10px;
+}
 /* MENU */
 .contenedor-header{
-    background: #1e2326;
+    background: #ff7504;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,8 +32,9 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: #ffffff;
     text-decoration: none;
+    
 }
 .contenedor-header header ul{
     display: flex;
@@ -38,17 +42,17 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #000000;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color: #ff5e00;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -58,9 +62,9 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(img/COVER\ CORTA\ VENAS\ DJ\ LENNY.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     color: #fff;
     display: flex;
     align-items: center;
@@ -75,11 +79,11 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 10px solid #fa4700;
     display: block;
     width: 80%;
     margin: auto;
-    border-radius: 100%;
+    border-radius: 100%
 }
 .inicio .contenido-banner h1{
     margin-top: 40px;
@@ -104,7 +108,7 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #fd6906;
 }
 .sobremi{
     background-color: #1e2326;
@@ -128,7 +132,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #ff7b00;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -151,11 +155,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #ec6f08;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #ff7b00;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -176,7 +180,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #ee660b;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -201,7 +205,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #f55a00;
     z-index: -1;
     transition: 1s;
 }
@@ -250,7 +254,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: #ec790e;
     position: absolute;
     top: 0;
     left: 0;
@@ -260,7 +264,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #f87b07;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -405,30 +409,30 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #ee8105;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #e7760d;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #eb5905;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #eb5e0c;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #eb5d0c;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -440,14 +444,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #e9650d;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #e45b0d;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -459,7 +463,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #f17007;
     float: left;
     position: relative;
     bottom: 4px;
@@ -502,7 +506,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgba(247, 94, 5, 0.8), rgba(219, 101, 4, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -575,7 +579,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #ec780b;
     z-index: -1;
     transition: 1s;
 }
@@ -601,7 +605,7 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #dd7b0b;
     display: inline-block;
     margin-right: 20px;
 }
@@ -633,7 +637,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #e6630d;
     color: #fff;
     position: absolute;
     left: 50%;
